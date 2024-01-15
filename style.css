@@ -129,6 +129,12 @@ li {
     width: 90%;
 }
 
+.destination-img {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1.5rem;
+}
+
 /* Responsive */
 @media screen and (max-width:576px) {
 
