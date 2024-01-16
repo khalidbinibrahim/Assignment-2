@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/87c8cc33d2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <h3><img src="Images/Group 40071 (2).png">Celestial <span>Travels</span></h3>
+            <h3><img src="Images/Group 40071 (2).png"> Celestial <span>Travels</span></h3>
             <ul>
                 <li><a href="#" id="home">Home</a></li>
                 <li><a href="#">Packages</a></li>
@@ -21,10 +22,27 @@
             </ul>
         </nav>
         <div class="head-container">
-            <h1>Explore Your Travel</h1>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis
-                sapien urna eu phasellus.</p>
-
+            <div class="head-content">
+                <h1 class="head-title">Explore Your Travel</h1>
+                <p class="head-des">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            </div>
+            <div class="head-option">
+                <div class="where-go">Where go</div>
+                <select id="when">
+                    <option value="when">When</option>
+                    <option value="today">Today</option>
+                    <option value="tonight">Tonight</option>
+                    <option value="tomorrow">Tomorrow</option>
+                </select>
+                <select id="honeymoon">
+                    <option value="select">Select Type</option>
+                    <option value="cruise">Cruise Honeymoon</option>
+                    <option value="adventure">Adventure Honeymoon</option>
+                    <option value="cultural">Cultural Honeymoon</option>
+                    <option value="familymoon">Familymoon</option>
+                </select>
+                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </div>
         </div>
     </header>
 
@@ -70,24 +88,24 @@
 
         <section class="choose-us">
             <div class="choose-us-content">
-                <h2></h2>
-                <p></p>
+                <h2 class="choose-us-title">Why Choose Us</h2>
+                <p class="choose-us-des">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
             </div>
             <div class="choose-us-container">
-                <div class="choose-us-card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="choose-us-card-1">
+                    <img src="Images/hotel 1.png" alt="">
+                    <h3>Handpicked Hotels</h3>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                 </div>
-                <div class="choose-us-card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="choose-us-card-2">
+                    <img src="Images/map 1.png" alt="">
+                    <h3>World Class Service</h3>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                 </div>
-                <div class="choose-us-card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="choose-us-card-3 center">
+                    <img src="Images/price-tag 1.png" alt="">
+                    <h3>Best Price Guarantee</h3>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                 </div>
         </section>
 
@@ -105,7 +123,7 @@
                 <button class="btn-primary">See More</button>
             </div>
             <div class="perfect-img">
-                <img src="Images/Group 40089.png" alt="">
+                <img src="Images/Group 40089.png" alt="" controls>
             </div>
         </section>
 

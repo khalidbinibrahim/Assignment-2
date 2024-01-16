@@ -6,11 +6,6 @@ body {
     padding: 0;
 }
 
-header {
-    background: #FFF;
-    padding: 0px 140px;
-}
-
 .btn-primary {
     border-radius: 8px;
     border: none;
@@ -19,6 +14,27 @@ header {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
+}
+
+#home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#when,
+#honeymoon {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 80px 16px 16px;
+}
+
+header {
+    background: #FFF;
+    padding: 0px 140px;
 }
 
 nav {
@@ -60,10 +76,54 @@ nav li a {
     text-decoration: none;
 }
 
-#home {
-    color: #FF5400;
-    font-size: 18px;
-    font-weight: 700;
+.head-container {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 16px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.head-content {
+    padding: 85px 185px;
+}
+
+.head-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.head-des {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.head-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.where-go {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 80px 16px 16px;
+}
+
+select option {
+    font-family: Mulish;
 }
 
 .card-container {
@@ -287,6 +347,68 @@ li {
     margin-bottom: 16px;
 }
 
+.choose-us {
+    margin: 100px 120px;
+}
+
+.choose-us-content {
+    text-align: center;
+}
+
+.choose-us-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.choose-us-card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.choose-us-card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.choose-us-card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+
+.choose-us-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.choose-us-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.choose-us-container h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.choose-us-container p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* Responsive */
 @media screen and (max-width:600px) {
 
@@ -295,6 +417,8 @@ li {
         padding: 20px;
     }
 
+    .head-content,
+    .head-option,
     nav,
     ul,
     .card-container,
@@ -303,6 +427,18 @@ li {
     .newsletter,
     .perfect {
         flex-direction: column;
+    }
+
+    .head-content {
+        padding: 20px;
+    }
+
+    .head-option {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
     }
 
     .popular {
@@ -331,6 +467,7 @@ li {
         margin: 10px;
     }
 
+    .head-title,
     .destination-title,
     .perfect-title {
         font-size: 20px;
