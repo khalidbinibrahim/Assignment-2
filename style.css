@@ -574,7 +574,8 @@ li {
     .choose-us-container,
     .destination-img,
     .newsletter,
-    .perfect {
+    .perfect,
+    .footer-container {
         flex-direction: column;
     }
 
@@ -639,6 +640,10 @@ li {
     .choose-us-card-3 {
         width: 83%;
         margin: 24px 0;
+    }
+
+    .footer {
+        padding: 10px;
     }
 }
 
