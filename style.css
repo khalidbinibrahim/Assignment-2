@@ -213,7 +213,7 @@ li {
 .newsletter {
     display: flex;
     justify-content: center;
-    margin: 100px 135px;
+    margin: 100px 120px;
     gap: 24px;
 }
 
@@ -254,6 +254,39 @@ li {
     padding: 25px 30px;
 }
 
+.perfect {
+    display: flex;
+    justify-content: content;
+    margin: 100px 120px;
+    gap: 28px;
+}
+
+.perfect-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.perfect-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.perfect-list {
+    margin-bottom: 32px;
+}
+
+.perfect-list li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
 /* Responsive */
 @media screen and (max-width:600px) {
 
@@ -267,17 +300,18 @@ li {
     .card-container,
     .popular,
     .destination-img,
-    .newsletter {
+    .newsletter,
+    .perfect {
         flex-direction: column;
     }
 
     .popular {
-        padding: 20px;
-        margin: 0;
+        margin: 20px;
     }
 
     .popular-img img,
-    .newsletter-img img {
+    .newsletter-img img,
+    .perfect-img img {
         width: 100%;
         margin-top: 24px;
     }
@@ -297,7 +331,8 @@ li {
         margin: 10px;
     }
 
-    .destination-title {
+    .destination-title,
+    .perfect-title {
         font-size: 20px;
     }
 
@@ -307,6 +342,10 @@ li {
 
     .newsletter-content {
         padding: 20px;
+    }
+
+    .perfect {
+        margin: 20px;
     }
 }
 
@@ -318,7 +357,8 @@ li {
     nav,
     ul,
     .popular,
-    .newsletter {
+    .newsletter,
+    .perfect {
         flex-direction: column;
     }
 
