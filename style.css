@@ -191,7 +191,7 @@ li {
 
 .des-img-5 {
     grid-column-start: 6;
-    grid-column-end:8;
+    grid-column-end: 8;
     grid-row-start: 4;
     grid-row-end: 8;
 }
@@ -210,8 +210,52 @@ li {
     grid-row-end: 12;
 }
 
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin: 100px 135px;
+    gap: 24px;
+}
+
+.newsletter-content {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.newsletter-form input {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    flex-grow: 1;
+    border: none;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 25px 30px;
+}
+
 /* Responsive */
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
 
     header,
     li {
@@ -222,7 +266,8 @@ li {
     ul,
     .card-container,
     .popular,
-    .destination-img {
+    .destination-img,
+    .newsletter {
         flex-direction: column;
     }
 
@@ -231,7 +276,8 @@ li {
         margin: 0;
     }
 
-    .popular-img img {
+    .popular-img img,
+    .newsletter-img img {
         width: 100%;
         margin-top: 24px;
     }
@@ -240,7 +286,7 @@ li {
         display: flex;
         margin: 20px;
     }
-    
+
     .destination-img img {
         max-width: 335px;
         max-height: 175px;
@@ -254,16 +300,25 @@ li {
     .destination-title {
         font-size: 20px;
     }
+
+    .newsletter {
+        margin: 20px;
+    }
+
+    .newsletter-content {
+        padding: 20px;
+    }
 }
 
-@media screen and (min-width:576px) and (max-width: 960px) {
+@media screen and (min-width:601px) and (max-width: 992px) {
     header {
         padding: 50px;
     }
 
     nav,
     ul,
-    .popular {
+    .popular,
+    .newsletter {
         flex-direction: column;
     }
 
