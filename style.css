@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 body {
     font-family: 'Mulish', sans-serif;
     margin: 0;
@@ -640,6 +638,20 @@ li {
     .choose-us,
     .perfect {
         margin: 20px;
+    }
+
+    .deals-discount {
+        margin: 20px;
+    }
+
+    .second-deals {
+        padding: 0;
+    }
+
+    .deals {
+        width: auto;
+        padding: 20px;
+        margin: 10px;
     }
 
     .choose-us-card-3 {
