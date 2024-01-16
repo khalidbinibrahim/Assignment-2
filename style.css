@@ -139,15 +139,15 @@ select option {
 }
 
 .card-container .card-stats {
-    color: #032027;
+    color: #131318;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 800;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .card-container .card-title {
-    color: rgba(3, 32, 39, 0.60);
+    color: rgba(19, 19, 24, 0.70);
     font-size: 24px;
     font-weight: 400;
     margin-top: 5px;
