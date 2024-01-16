@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,900;1,1000&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     font-family: 'Mulish', sans-serif;
     margin: 0;
@@ -45,13 +47,15 @@ nav {
     align-items: center;
 }
 
-nav h3 {
+nav h3,
+.footer-title {
     color: #131318;
     font-size: 36px;
     font-weight: 800;
 }
 
-nav h3 span {
+nav h3 span,
+.footer-title span {
     color: #FF5400;
     font-size: 36px;
     font-weight: 800;
@@ -409,6 +413,44 @@ li {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+}
+
+.footer {
+    padding: 110px 335px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content,
+.footer-icons,
+.footer-end {
+    text-align: center;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+}
+
+.footer-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    gap: 18px;
+    margin-bottom: 50px;
+}
+
+.footer-end {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
 }
 
 /* Responsive */
