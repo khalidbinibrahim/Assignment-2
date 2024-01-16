@@ -22,14 +22,15 @@ body {
     font-weight: 700;
 }
 
-#when,
-#honeymoon {
+.when,
+.honeymoon {
     border-radius: 8px;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
-    padding: 16px 80px 16px 16px;
+    padding: 16px 70px 16px 16px;
+    margin: 10px;
 }
 
 header {
@@ -356,8 +357,7 @@ li {
 }
 
 .choose-us-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     gap: 24px;
 }
 
@@ -380,6 +380,8 @@ li {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 32px;
+    width: 50%;
+    margin: 24px auto;
 }
 
 .choose-us-title {
@@ -396,14 +398,14 @@ li {
     margin-bottom: 48px;
 }
 
-.choose-us-container h3 {
+.choose-us-all h3 {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 16px;
 }
 
-.choose-us-container p {
+.choose-us-all p {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -423,6 +425,7 @@ li {
     ul,
     .card-container,
     .popular,
+    .choose-us-container,
     .destination-img,
     .newsletter,
     .perfect {
@@ -469,6 +472,7 @@ li {
 
     .head-title,
     .destination-title,
+    .choose-us-title,
     .perfect-title {
         font-size: 20px;
     }
@@ -481,8 +485,14 @@ li {
         padding: 20px;
     }
 
+    .choose-us,
     .perfect {
         margin: 20px;
+    }
+
+    .choose-us-card-3 {
+        width: 83%;
+        margin: 24px 0;
     }
 }
 
